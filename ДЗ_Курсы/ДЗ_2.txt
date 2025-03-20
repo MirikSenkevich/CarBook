@@ -1,0 +1,16 @@
+Домашнее задание №7: http://fe.it-academy.by/Sites/0044332/maket_adapt.html
+Домашнее задание №8: 8a: http://fe.it-academy.by/Sites/0044336/maket_form.html
+                      8b: http://fe.it-academy.by/Sites/0044340/maket_abs.html
+                      8c: http://fe.it-academy.by/Sites/0044175/maket_div.html
+Домашнее задание №9: 9a: http://fe.it-academy.by/Sites/0044344/gallery.html
+                      9b: http://fe.it-academy.by/Sites/0044345/test_svg.html 
+                      9c: Рисунок можно изобразить через SVG графику
+                          Так же можно создать большое изображение png
+                      9d: http://fe.it-academy.by/Sites/0044358/test_anim.html
+                      9e: http://fe.it-academy.by/Sites/0044363/maket_flex.html
+                      9f: http://fe.it-academy.by/Sites/0044365/maket_grid.html  
+
+JavaScript
+Домашнее задание №1: http://fe.it-academy.by/Sites/0044369/anketa_if.html
+                      http://fe.it-academy.by/Sites/0044370/anketa_oper.html
+Домашнее задание №2: http://fe.it-academy.by/Sites/0044374/countries.html  

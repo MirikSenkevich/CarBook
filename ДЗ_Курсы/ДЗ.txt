@@ -1,0 +1,9 @@
+Домашнее задание №3: http://fe.it-academy.by/Sites/0044106/font_gwt.html
+Домашнее задание №4: http://fe.it-academy.by/Sites/0044172/div_frame.html 
+Домашнее задание №5: http://fe.it-academy.by/Sites/0044173/make_table.html
+                      http://fe.it-academy.by/Sites/0044175/maket_div.html
+Домашнее задание №6: 6a: http://fe.it-academy.by/Sites/0044302/links.html
+                      6b: http://fe.it-academy.by/Sites/0044305/CSS_chess.html
+                      6c: http://fe.it-academy.by/Sites/0044306/chess.html
+                      6d: http://fe.it-academy.by/Sites/0044309/stars.html 
+

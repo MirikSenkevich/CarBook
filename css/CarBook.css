@@ -1,0 +1,1641 @@
+html {
+  overflow-x: hidden;
+}
+.name {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  left: 200px;
+  top: 25px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  span {
+    a {
+      color: #01d28e;
+      text-decoration: none;
+    }
+  }
+}
+.menu {
+  position: relative;
+  left: 725px;
+  bottom: 15px;
+}
+.elmenu {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.elmenu a:hover {
+  color: #01d28e;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  z-index: -10;
+}
+.name_nav {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  left: 200px;
+  top: 25px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  span {
+    a {
+      color: #01d28e;
+      text-decoration: none;
+    }
+  }
+}
+
+.BackImg {
+  width: 100%;
+  height: 850px;
+  background-image: url(Bec_audi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
+  z-index: 10;
+}
+.BackImg2 {
+  width: 100%;
+  height: 600px;
+  background-image: url(Velkom4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
+  z-index: 10;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  background-color: #f8f9fa;
+  max-width: 1520px;
+  min-width: 600px;
+}
+.Slogan {
+  position: relative;
+  top: 190px;
+  left: 50%;
+  line-height: 1.1;
+  transform: translate(-50%);
+  font-size: 44px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.Description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  position: relative;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.VideoBlock {
+  position: relative;
+  width: 380px;
+  height: 140px;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%);
+  .But {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+  }
+  .DescBut {
+    text-align: right;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+.RentCar {
+  width: 370px;
+  height: 535px;
+  background-color: #1089ff;
+  border-radius: 5px;
+  position: absolute;
+  top: 750px;
+  left: 200px;
+  color: #fff;
+}
+.noel {
+  opacity: 0;
+}
+.noel.showel {
+  opacity: 1;
+  transition: all 1s;
+}
+.RezerveCar {
+  width: 745px;
+  height: 455px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 790px;
+  left: 570px;
+  color: black;
+}
+.tit1 {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.tit2 {
+  padding-top: 65px;
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.dec {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.t1 {
+  padding-left: 30px;
+  input {
+    width: 310px;
+    height: 40px;
+    background-color: #1089ff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+  }
+}
+
+.t8 {
+  padding-left: 5%;
+  input {
+    margin-top: 50px;
+    width: 625px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}
+.t7 {
+  padding-left: 5%;
+  input {
+    margin-top: 15px;
+    width: 625px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  textarea{
+    margin-top: 15px;
+    max-width: 625px;
+    min-width: 625px;
+    max-height: 170px;
+    min-height: 170px;
+    width: 625px;
+    height: 170px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+}
+.PolVV{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 115px;
+  width: 730px;
+  height: 560px;
+  background-color: #f8f9fa;
+}
+.b1 {
+  padding-top: 10px;
+  padding-left: 30px;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #01d28e;
+      border: 1px solid #01d28e;
+      color: #fff;
+      width: 310px;
+      height: 55px;
+      font-size: 17px;
+    }
+  }
+}
+.Viz {
+  padding-left: 66.5px;
+}
+.Viz1 {
+  display: inline-block;
+}
+.Viz2 {
+  display: inline-block;
+  padding-left: 150px;
+}
+.dec1 {
+  font-size: 17px;
+  font-weight: 500;
+  float: left;
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 48px;
+}
+.b2 {
+  padding-top: 100px;
+  padding-left: 50px;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      color: #fff;
+      width: 235px;
+      height: 55px;
+      font-size: 17px;
+    }
+  }
+}
+.b8 {
+  padding-top: 15px;
+  padding-left: 5%;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      border-radius: 5px;
+      color: #fff;
+      width: 200px;
+      height: 55px;
+      font-size: 17px;
+    }
+  }
+}
+.Map{
+  margin-top: 100px;
+  margin-left: 5%;
+  iframe{
+    width: 1000px;
+    height: 500px;
+  }
+}
+.Cars {
+  padding-top: 550px;
+}
+.Offer {
+  display: block;
+  margin-bottom: 5px;
+  color: #1089ff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.Vehic {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+.ImgCar {
+  width: 340px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  img {
+    width: 340px;
+    height: 220px;
+    border-radius: 5px;
+  }
+}
+.ImgCar2 {
+  width: 340px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  img {
+    width: 340px;
+    height: 220px;
+    border-radius: 5px;
+  }
+}
+.lev1 {
+  padding-left: 15%;
+  padding-top: 100px;
+}
+.lev {
+  padding-left: 15%;
+  padding-top: 50px;
+}
+.levlast {
+  padding-left: 15%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.ImgStr2 {
+  width: 340px;
+  height: 39px;
+  display: inline-block;
+  img {
+    width: 39px;
+    height: 39px;
+    padding-left: 8px;
+  }
+}
+.NameCar {
+  padding-top: 20px;
+  padding-left: 30px;
+  a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+}
+.PriceCar {
+  padding-left: 30px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  vertical-align: top;
+}
+.PrDay {
+  padding-left: 185px;
+  display: inline-block;
+  vertical-align: top;
+  color: #1089ff;
+  font-weight: 600;
+  span {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+  }
+}
+.b3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: top;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      border-radius: 5px;
+      color: #fff;
+      width: 130px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+}
+.b4 {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: top;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #01d28e;
+      border: 1px solid #01d28e;
+      border-radius: 5px;
+      color: #fff;
+      width: 130px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+}
+.container {
+  max-width: 84%;
+  margin: 100px auto;
+}
+.About {
+  width: 100%;
+  height: 725px;
+  background-color: #01d28e;
+}
+.Col {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 550px;
+  height: 725px;
+  img {
+    width: 555px;
+    height: 530px;
+    position: relative;
+    top: 96px;
+    left: 200px;
+  }
+}
+.Ab {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.Welc {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+.t3 {
+  color: #fff;
+  line-height: 1.8;
+}
+.b5 {
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      border-radius: 5px;
+      color: #fff;
+      width: 160px;
+      height: 55px;
+      font-size: 17px;
+    }
+  }
+}
+.txt {
+  display: inline-block;
+  position: relative;
+  line-height: 1.1;
+  left: 250px;
+  top: 50px;
+}
+.Serv {
+  padding-top: 100px;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+.Pic {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 50px;
+  span {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+  }
+  p {
+    max-width: 60%;
+    padding-left: 20%;
+  }
+}
+.Bec {
+  background-color: #01d28e;
+  width: 100%;
+  height: 368px;
+  text-align: right;
+  img {
+    height: 368px;
+  }
+}
+.t4 {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  left: 800px;
+  bottom: 300px;
+  text-align: left;
+}
+.b6 {
+  position: relative;
+
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      border-radius: 5px;
+      color: #fff;
+      width: 155px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+}
+.Koment {
+  padding-top: 100px;
+}
+.ImgKl {
+  width: 340px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  img {
+    width: 100px !important;
+    height: 100px;
+    padding-left: 120px;
+  }
+}
+.KomKl {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.NameKl {
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+.RangKl {
+  font-size: 16px;
+  color: #1089ff;
+}
+.Blog {
+  padding-top: 100px;
+  height: 750px;
+  background-color: #fff;
+}
+.News {
+  padding-top: 50px;
+  padding-left: 100px;
+  width: 290px;
+  display: inline-block;
+}
+.News1 {
+  padding-top: 50px;
+  padding-left: 200px;
+  width: 290px;
+  display: inline-block;
+}
+.Blog1 {
+  padding-left: 10%;
+  width: 1110px;
+  height: 950px;
+  text-align: center;
+  .PicBl {
+    width: 1110px;
+    height: 700px;
+    img {
+      width: 1110px;
+      height: 700px;
+    }
+  }
+  .TxtBl {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.PicBl {
+  width: 290px;
+  height: 270px;
+  background-color: #fff;
+  img {
+    width: 290px;
+    height: 270px;
+  }
+}
+.DatBl {
+  font-size: 14px;
+  font-weight: 500;
+  a {
+    color: #1089ff;
+    text-decoration: none;
+    img:hover {
+      cursor: pointer;
+    }
+  }
+  a:hover {
+    color: #999999;
+  }
+  span {
+    a {
+      color: #1089ff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #999999;
+    }
+  }
+}
+.TxtBl {
+  padding-top: 20px;
+  a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #1089ff;
+  }
+}
+.b7 {
+  padding-top: 20px;
+  a {
+    :hover {
+      cursor: pointer;
+    }
+    text-decoration: none;
+    input {
+      background: #1089ff;
+      border: 1px solid #1089ff;
+      border-radius: 5px;
+      color: #fff;
+      width: 130px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+}
+.benefits {
+  padding-left: 60px;
+  width: 100%;
+  height: 285px;
+}
+.benefits_element {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.benefits_element1 {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.benefits_number {
+  display: inline-block;
+  padding-top: 96p;
+  font-weight: 300;
+  font-size: 50px;
+  color: #1089ff;
+}
+.benefits_title {
+  display: inline-block;
+  padding-top: 96px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.2;
+  padding-left: 15px;
+  text-align: left;
+}
+.ContN {
+  width: 250px;
+  height: 353px;
+  padding-top: 100px;
+  padding-left: 200px;
+  display: inline-block;
+}
+.nm {
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+  }
+  span a {
+    color: #01d28e;
+  }
+}
+.Cont {
+  width: 100%;
+  height: 670px;
+  background-color: black;
+}
+.t5 {
+  padding-top: 30px;
+  a {
+    text-decoration: none;
+    color: #999999;
+  }
+}
+.ImgCont1 {
+  display: inline-block;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.ImgCont {
+  display: inline-block;
+  padding-left: 10px;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.Image {
+  padding-top: 30px;
+}
+.Inf {
+  width: 250px;
+  height: 353px;
+  display: inline-block;
+  padding-top: 100px;
+  vertical-align: top;
+}
+.NmInf {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.t6 {
+  padding-top: 10px;
+  a {
+    text-decoration: none;
+    color: #999999;
+  }
+}
+.LockImg {
+  padding-top: 30px;
+  display: inline-block;
+  img {
+    width: 14px;
+    height: 14px;
+  }
+}
+.LockTxt {
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+.Zat {
+  width: 285px;
+  height: 1px;
+}
+.TelImg {
+  display: inline-block;
+  padding-top: 9px;
+  a {
+    text-decoration: none;
+    img {
+      width: 14px;
+      height: 14px;
+    }
+  }
+}
+.TelTxt {
+  display: inline-block;
+  padding-top: 9px;
+  padding-left: 10px;
+  vertical-align: top;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.navbar {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: solid 1px #999999;
+}
+.name_nav {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  left: 200px;
+  top: 25px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  span {
+    a {
+      color: #01d28e;
+      text-decoration: none;
+    }
+  }
+}
+.menu_nav {
+  position: relative;
+  left: 725px;
+  bottom: 15px;
+}
+.elmenu_nav {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-decoration: none;
+  }
+}
+.elmenu_nav a:hover {
+  color: #1089ff;
+}
+.navbar.scrolled {
+  opacity: 1;
+  z-index: 20;
+  transition: all 1s;
+}
+.mn_dropdown {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 600px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  transition: all 1s;
+  .menu_dropdown {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+}
+.nm_dropdown {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  left: 5%;
+  top: 15px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  span {
+    a {
+      color: #01d28e;
+      text-decoration: none;
+    }
+  }
+}
+.bt_dropdown {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  left: 75%;
+  cursor: pointer;
+}
+.mn_dropdown.show {
+  height: 300px;
+  .menu_dropdown {
+    opacity: 1;
+    transition: all 2s;
+  }
+  transition: all 0.5s;
+}
+.menu_dropdown {
+  position: relative;
+  left: 5%;
+  top: 25px;
+}
+.elmenu_dropdown {
+  a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.elmenu_dropdown a:hover {
+  color: #01d28e;
+}
+
+.mn_dropdown_nav {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 600px;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  transition: all 1s;
+  .menu_dropdown_nav {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+}
+.nm_dropdown_nav {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  left: 5%;
+  top: 15px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  span {
+    a {
+      color: #01d28e;
+      text-decoration: none;
+    }
+  }
+}
+.bt_dropdown_nav {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  left: 75%;
+  cursor: pointer;
+}
+.mn_dropdown_nav.show {
+  height: 300px;
+  .menu_dropdown_nav {
+    opacity: 1;
+    transition: all 2s;
+  }
+  transition: all 0.5s;
+}
+.menu_dropdown_nav {
+  position: relative;
+  left: 5%;
+  top: 25px;
+}
+.elmenu_dropdown_nav {
+  a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-decoration: none;
+  }
+}
+.elmenu_dropdown_nav a:hover {
+  color: #1089ff;
+}
+
+.navig {
+  position: relative;
+  left: 200px;
+  top: 350px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+  a {
+    text-decoration: none;
+    color: #999999;
+  }
+  a:hover {
+    color: #1089ff;
+  }
+  p {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 0.1;
+    color: #fff;
+  }
+}
+.AllCont{
+  width: 100%;
+  background-color: #fff;
+}
+.Contact{
+  padding-top: 100px;
+  padding-left: 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+.Adr{
+  width: 350px;
+  background-color: #fff;
+  border: solid 1px #999999;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.ImgCont{
+  display: inline-block;
+  padding-top: 20px;
+  vertical-align: top;
+  img{
+    width: 23px;
+    height: 23px;
+  }
+}
+.ImgNm{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  p{
+    width: 262px;
+    font-weight: 600;
+    color: #000000;
+  }
+}
+.Zagl{
+  width: 455px;
+  height: 90px;
+  display: inline-block;
+  padding-top: 100px;
+}
+.Hour{
+  width: 215px;
+  height: 90px;
+  display: inline-block;
+  background-color:#1089ff;
+  text-align: center;
+  p{
+    font-weight: 500;
+    color: #fff;
+    padding-top: 20px;
+  }
+}
+.Day{
+  width: 215px;
+  height: 90px;
+  display: inline-block;
+  background-color: rgb(52, 58, 64);
+  text-align: center;
+  p{
+    font-weight: 500;
+    color: #fff;
+    padding-top: 20px;
+  }
+}
+.Leasing{
+  width: 215px;
+  height: 90px;
+  display: inline-block;
+  background-color: #000000;
+  text-align: center;
+  p{
+    font-weight: 500;
+    color: #fff;
+    padding-top: 20px;
+  }
+}
+.Fon{
+  width: 100%;
+  background-color: #fff;
+}
+.Zagl1{
+  width: 455px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: solid 1px #999999;
+  .AvtoImg{
+    width: 180px;
+    height: 100px;
+    display: inline-block;
+    padding-top: 40px;
+    vertical-align: top;
+    img{
+      width: 180px;
+      height: 100px;
+    }
+  }
+  .Rate{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 55px;
+    width: 225px;
+    font-size: 18px;
+    line-height: 1.5;
+    p{
+      font-size: 18px;
+      img{
+        height: 18px;
+      }
+    }
+  }
+  
+}
+.Hour1{
+  width: 215px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8f9fa;
+  text-align: center;
+  p{
+    color: #1089ff;
+    padding-top: 40px;
+    span{
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    a{
+      color: rgb(33, 37, 41) !important;
+      font-size: 14px;
+    }
+  }
+}
+.Day1{
+  width: 215px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8f9fa;
+  text-align: center;
+  p{
+    color: #1089ff;
+    padding-top: 40px;
+    span{
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    a{
+      color: rgb(33, 37, 41) !important;
+      font-size: 14px;
+    }
+  }
+}
+.Leasing1{
+  width: 215px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8f9fa;
+  text-align: center;
+  p{
+    color: #1089ff;
+    padding-top: 40px;
+    span{
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    a{
+      color: rgb(33, 37, 41) !important;
+      font-size: 14px;
+    }
+  }
+}
+
+@media all and (max-width: 1315px) {
+  .menu {
+    left: 525px;
+  }
+  .menu_nav {
+    left: 525px;
+  }
+  .t4 {
+    left: 600px;
+  }
+  .News {
+    padding-left: 50px;
+  }
+  .dec1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .Viz {
+    padding-left: 57px;
+  }
+  .Viz2 {
+    padding-left: 100px;
+  }
+  .Col {
+    img {
+      left: 100px;
+    }
+  }
+  .txt {
+    left: 150px;
+  }
+  .benefits {
+    padding-left: 100px;
+  }
+  .benefits_element {
+    width: 200px;
+  }
+  .benefits_element1 {
+    width: 240px;
+  }
+}
+@media all and (max-width: 1215px) {
+  .Zagl{
+    width: 400px;
+  }
+  .Zagl1{
+    width: 400px;
+    .AvtoImg{
+      width: 170px;
+      img{
+        width: 170px;
+      }
+    }
+  }
+    
+  .Hour{
+    width: 155px;
+  }
+  .Hour1{
+    width: 155px;
+  }
+  .Day{
+    width: 155px;
+  }
+  .Day1{
+    width: 155px;
+  }
+  .Leasing{
+    width: 155px;
+  }
+  .Leasing1{
+    width: 155px;
+  }
+  .Map{
+    iframe{
+      width: 500px;
+      height: 250px;
+    }
+  }
+  .Adr{
+    width: 250px;
+  }
+  .PolVV{
+    width: 430px;
+  }
+  .t8 {
+    padding-left: 5%;
+    input {
+      margin-top: 50px;
+      width: 325px;
+      height: 40px;
+    }
+  }
+  .t7 {
+    padding-left: 5%;
+    input {
+      width: 325px;
+    }
+    textarea{
+      margin-top: 15px;
+      max-width: 325px;
+      min-width: 325px;
+      max-height: 170px;
+      min-height: 170px;
+      width: 325px;
+      height: 170px;
+    }
+  }
+  .Blog1 {
+    width: 690px;
+    height: 700px;
+    text-align: center;
+    .PicBl {
+      width: 690px;
+      height: 430px;
+      img {
+        width: 690px;
+        height: 430px;
+      }
+    }
+    .TxtBl {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .b3 {
+    padding-top: 30px;
+    input {
+      width: 102px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+  .b4 {
+    padding-top: 30px;
+    input {
+      width: 102px;
+      height: 40px;
+      font-size: 17px;
+    }
+  }
+  .ImgCar2 {
+    width: 245px;
+    height: 550px;
+    img {
+      width: 245px;
+    }
+  }
+
+  .ImgStr2 {
+    width: 245px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .navig {
+    left: 25px;
+  }
+  .name {
+    opacity: 0;
+  }
+  .menu {
+    opacity: 0;
+  }
+  .navbar.scrolled {
+    opacity: 0;
+  }
+  .mn_dropdown {
+    opacity: 1;
+    z-index: 30;
+  }
+  .mn_dropdown_nav.scrolled {
+    opacity: 1;
+    z-index: 30;
+  }
+  .RentCar {
+    width: 240px;
+  }
+  .t1 {
+    input {
+      width: 200px;
+    }
+  }
+  .b1 a input {
+    width: 200px;
+  }
+  .RezerveCar {
+    width: 490px;
+    left: 440px;
+  }
+  .Viz1 {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .Viz2 {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .dec1 {
+    font-size: 12px;
+  }
+  .Col {
+    width: 350px;
+    img {
+      left: 50px;
+      width: 355px;
+    }
+  }
+  .txt {
+    left: 75px;
+  }
+  .t4 {
+    left: 350px;
+  }
+  .News1 {
+    padding-left: 50px;
+    width: 240px;
+  }
+  .News {
+    padding-left: 25px;
+    width: 240px;
+  }
+  .PicBl {
+    width: 240px;
+  }
+  .benefits {
+    padding-left: 20px;
+  }
+  .benefits_element {
+    text-align: left;
+  }
+  .benefits_element1 {
+    text-align: left;
+  }
+  .ContN {
+    padding-left: 25px;
+  }
+  .Inf {
+    width: 175px;
+  }
+  .tit2 {
+    padding-left: 25px;
+  }
+}
+@media all and (max-width: 900px) {
+  .Zagl{
+    display: block;
+  }
+  .Zagl1{
+    display: block;
+  }
+    
+  .Hour{
+    width: 155px;
+  }
+  .Hour1{
+    width: 155px;
+  }
+  .Day{
+    width: 155px;
+  }
+  .Day1{
+    width: 155px;
+  }
+  .Leasing{
+    width: 155px;
+  }
+  .Leasing1{
+    width: 155px;
+  }
+  .PolVV{
+    display: block;
+  }
+  .Blog1 {
+    width: 430px;
+    height: 585px;
+    text-align: center;
+    .PicBl {
+      width: 430px;
+      height: 270px;
+      img {
+        width: 430px;
+        height: 270px;
+      }
+    }
+    .TxtBl {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .ImgCar2 {
+    width: 340px;
+    margin-top: 50px;
+    display: block;
+    img {
+      width: 340px;
+    }
+  }
+  .ImgStr2 {
+    width: 340px;
+    display: block;
+    img {
+      width: 39px;
+      height: 39px;
+    }
+  }
+  .bt_dropdown {
+    left: 70%;
+  }
+  .bt_dropdown_nav {
+    left: 70%;
+  }
+  .RentCar {
+    min-width: 590px;
+    width: 90%;
+    left: 25px;
+  }
+  .t1 {
+    input {
+      width: 95%;
+    }
+  }
+  .b1 a input {
+    width: 360px;
+  }
+  .RezerveCar {
+    left: 25px;
+    top: 1285px;
+    min-width: 590px;
+    width: 90%;
+  }
+  .Cars {
+    padding-top: 900px;
+  }
+  .About {
+    height: 1450px;
+  }
+  .Col {
+    width: 100%;
+    img {
+      width: 90%;
+      left: 25px;
+    }
+  }
+  .txt {
+    top: 100px;
+  }
+  .t4 {
+    left: 25px;
+  }
+  .News1 {
+    display: block;
+    padding-left: 25px;
+    width: 100%;
+  }
+  .News {
+    display: block;
+    padding-left: 25px;
+    width: 100%;
+  }
+  .PicBl {
+    width: 90%;
+    img {
+      width: 90%;
+    }
+  }
+  .Blog {
+    height: 1500px;
+  }
+  .benefits {
+    height: 1140px;
+  }
+  .benefits_element {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .benefits_element1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .noel {
+    opacity: 1;
+  }
+  .ContN {
+    display: block;
+    padding-left: 25px;
+  }
+  .Inf {
+    display: block;
+    padding-left: 25px;
+  }
+  .Cont {
+    height: 2000px;
+  }
+}
+@media all and (max-width: 750px) {
+  .bt_dropdown {
+    left: 60%;
+  }
+  .bt_dropdown_nav {
+    left: 60%;
+  }
+}

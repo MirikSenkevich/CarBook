@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>Теги</title>
+  </head>
+  <body>
+     <h1 align=center> Теги HTML которые полезно знать </h1>
+
+     <h2> Теги &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; </h2>
+      Список описаний хорош для разметки вопросов-ответов, наименований и определений, категорий и тем. 
+     <br><b>Он создаётся с помощью трёх тегов:</b>
+     <ul>
+        <li> &lt;dl&gt; (сокращение от «description list») обозначает сам список описаний; </li>
+        <li> &lt;dt&gt; (сокращение от «description term») обозначает термин; </li>
+        <li> &lt;dd&gt; (сокращение от «description definition») обозначает описание или определение. </li>
+     </ul>
+     <p>Теги &lt;dt&gt; и &lt;dd&gt; пишутся внутри &lt;dl&gt;. </p>
+     <p>Каждый список &lt;dl&gt; может содержать один или несколько терминов и одно или несколько описаний для каждого термина. </p>
+
+     <h2> Пример кода: </h2>
+    &lt;dl&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;dt&gt;HTML&lt;&frasl;dt&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;dd&gt;Язык гипертекстовой разметки&lt;&frasl;dd&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;dt&gt;CSS&lt;&frasl;dt&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;dd&gt;Каскадные таблицы стилей&lt;&frasl;dd&gt;
+          <br>&nbsp;&nbsp;&nbsp;&lt;dd&gt;Язык для оформления HTML&hyphen;документов&lt;&frasl;dd&gt;
+    <br>&lt;&frasl;dt&gt;
+
+     <h2> Вид в браузере: </h2>
+    <dl>
+       <dt>HTML</dt>
+       <dd>Язык гипертекстовой разметки</dd>
+       <dt>CSS</dt>
+       <dd>Каскадные таблицы стилей</dd>
+       <dd>Язык для оформления HTML&hyphen;документов</dd>
+    </dl>
+
+    <br>
+    <br>
+    <h2> Тег &lt;pre&gt; </h2>
+    <p>Элемент HTML &lt;pre&gt; представляет собой предварительно отформатированный текст, который должен быть представлен точно так, как написано в HTML&hyphen;файле. 
+    <br>Текст обычно отображается с использованием непропорционального &lpar;&quot;monospace&quot;&rpar; шрифта. Пробелы внутри этого элемента отображаются как записанные.</p>
+    
+    <h2> Пример кода: </h2>
+    &lt;pre&gt;
+         <br>&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TE
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;V
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&nbsp;A
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOU
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOU
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REUSE
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUE TU
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTES
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;ET&nbsp;QUI&nbsp;T&grave;
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;ORNE&nbsp;O&nbsp;CI
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VILIS&Egrave;
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;OTE&minus;&nbsp;&nbsp;TU&nbsp;VEUX
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LA&nbsp;&nbsp;&nbsp;&nbsp;BIEN
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;SI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RESPI
+         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&minus;&nbsp;Apollinaire
+    <br>&lt;&frasl;pre&gt;
+    
+    <h2> Вид в браузере: </h2>
+         <pre>
+              L          TE
+                A       A
+                  C    V
+                   R A
+                   DOU
+                   LOU
+                  REUSE
+                  QUE TU
+                  PORTES
+                ET QUI T&grave;
+                ORNE O CI
+                 VILIS&Egrave;
+                OTE&minus;  TU VEUX
+                 LA    BIEN
+                SI      RESPI
+                RER       &minus; Apollinaire
+            </pre>
+    
+    <br>
+    <br>
+    <h2>Тег &lt;code&gt;</h2>
+    <p>Тег &lt;code&gt; предназначен для отображения одной или нескольких строк текста, который представляет собой программный код. Сюда относятся имена переменных, ключевые слова, тексты функции и т.д.<br>
+         Браузеры обычно отображают содержимое контейнера &lt;code&gt; как моноширинный текст уменьшенного размера. В отличие от тега &lt;pre&gt; дополнительные пробелы внутри контейнера &lt;code&gt; не учитываются,<br>
+         так же, как и переносы текста. Поэтому используйте тег &lt;br&gt; или &lt;p&gt; для создания переносов.
+    </p>
+
+    <h2> Пример кода: </h2>
+    &lt;p&gt;&lt;code&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;function checkParent &lpar;src, dest&rpar; {&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while &lpar;src != null&rpar; {&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if &lpar;src.tagName == dest&rpar; return src&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src = src.parentElement&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return null&lt;Br&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+    &lt;/code&gt;&lt;p&gt;<br>
+
+    <h2> Вид в браузере: </h2>
+    <p><code>
+        function checkParent &lpar;src, dest&rpar; {<Br>
+        &nbsp;while &lpar;src != null&rpar; {<Br>
+        &nbsp;&nbsp;&nbsp;if &lpar;src.tagName == dest&rpar; return src<Br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src = src.parentElement<Br>
+        &nbsp;}<Br>
+        &nbsp;return null<Br>
+        }
+    </code></p>
+
+    <br>
+    <br>
+    <h2>Тег &lt;tt&gt;</h2>
+    <p>Элемент &lt;tt&gt; &lpar;от англ. teletype text — текст телетайп&rpar; отображает текст моноширинным шрифтом.</p>
+
+    <h2> Пример кода: </h2>
+    &lt;p&gt;&lt;tt&gt;Данный закон исключённого третьего в XXI веке&lt;/tt&gt;&lt;/p&gt;<br>
+    &lt;p&gt;Можно предположить, что вселенная точно отражает системный анализ.&lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    <p><tt>Данный закон исключённого третьего в XXI веке</tt></p>
+    <p>Можно предположить, что вселенная точно отражает системный анализ.</p>
+
+    <br>
+    <br>
+    <h2> Тег &lt;kbd&gt; </h2>
+    <p>HTML-элемент ввода с клавиатуры &lpar;&lt;kbd&gt;&rpar; указывает на то, что текст внутри элемента описывает пользовательский ввод с клавиатуры, голосовой ввод или ввод с использованием любого другого типа устройств ввода текста.<br>
+    По общему соглашению, user agent использует моноширинный шрифт для отображения содержимого элемента &lt;kbd&gt; по умолчанию, хотя это и не указывается HTML стандартом явно.</p>
+    
+    <h2> Пример кода: </h2>
+    &lt;p&gt; Use the command &lt;kbd&gt;help mycommand&lt;/kbd&gt; to view documentation for the command &quot;mycommand&quot;. &lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    <p>Use the command <kbd>help mycommand</kbd> to view documentation for the command &quot;mycommand&quot;.</p>
+
+    <br>
+    <br>
+    <h2> Тег &lt;var&gt; </h2>
+    <p>Тег &lt;var&gt; (от англ. variable &mdash; переменная) используется для выделения переменных из компьютерных программ.
+    <br>Браузеры обычно помечают текст в контейнере &lt;var&gt; курсивным начертанием.</p>
+    
+    <h2> Пример кода: </h2>
+    &lt;p&gt;
+      <br>The volume of a box is &lt;var&gt;l&lt;/var&gt; × &lt;var&gt;w&lt;/var&gt; × &lt;var&gt;h&lt;/var&gt;, where &lt;var&gt;l&lt;/var&gt; represents the length,
+      <br>&lt;var&gt;w&lt;/var&gt; the width and &lt;var&gt;h&lt;/var&gt; the height of the box.
+    <br>&lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    <p>
+      The volume of a box is <var>l</var> × <var>w</var> × <var>h</var>, where <var>l</var> represents the length,
+      <var>w</var> the width and <var>h</var> the height of the box.
+    </p>
+
+    <br>
+    <br>
+    <h2> Теги &lt;sup&gt;, &lt;sub&gt;</h2>
+    <p> Тег &lt;sup&gt; (сокращение от superscript) отображает текст в виде верхнего индекса, а тег &lt;sub&gt; (сокращение от subscript) в виде нижнего индекса.<br>
+      Эти теги чаще используются для выделения отдельных символов, а не слов. Их используют для указания единиц измерения или написания простых формул.
+    </p>
+
+    <h2> Пример кода: </h2>
+    &lt;p&gt;
+    <br>20м&lt;sup&gt;2&lt;/sup&gt;
+    <br>H&lt;sub&gt;2&lt;/sub&gt;O
+    <br>X&lt;sup&gt;3&lt;/sup&gt;+X&lt;sup&gt;2&lt;/sup&gt;=1
+    <br>&lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    20м<sup>2</sup>
+    <br>H<sub>2</sub>O
+    <br>X<sup>3</sup>+X<sup>2</sup>=1
+
+    <br>
+    <br>
+    <h2> Тег &lt;blockquote&gt;</h2>
+    <p>HTML-элемент &lt;blockquote&gt; (от англ. Block Quotation) указывает на то, что заключённый в нем текст является развёрнутой цитатой. Обычно он (текст) визуально выделяется наклонным</p>
+
+    <h2> Пример кода: </h2>
+    &lt;blockquote&gt;
+      <br>Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.
+    <br>&lt;/blockquote&gt;
+
+    <h2> Вид в браузере: </h2>
+    <blockquote>
+      Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.
+    </blockquote> 
+    
+    <br>
+    <br>
+    <h2> Тег &lt;q&gt;</h2>
+    <p>Тег &lt;q&gt; используется для выделения в тексте цитат. Содержимое контейнера автоматически отображается в браузере в кавычках.</p>
+
+    <h2> Пример кода: </h2>
+    &lt;p&gt;Станислав Лец утверждал: &lt;q&gt;Чаще всего выход там, где был вход&lt;/q&gt;.&lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    <p>Станислав Лец утверждал: <q>Чаще всего выход там, где был вход</q>.</p>
+
+    <br>
+    <br>
+    <h2>Теги &lt;ins&gt;, &lt;del&gt; </h2>
+    <p>Для описания изменений предназначены теги &lt;del&gt; (сокращение от delete) и &lt;ins&gt; (сокращение от insert).
+    <br>Тег &lt;del&gt; выделяет текст, который был удалён в новой версии документа. В браузере этот текст перечёркивается.
+    <br>Тег &lt;ins&gt; выделяет текст, который был добавлен в новой версии документа. В браузере этот текст подчёркивается.
+    <br>Оба тега имеют атрибут datetime, в котором можно указать дату и время, когда была внесена та или иная правка.</p>
+
+    <h2> Пример кода:</h2>
+    &lt;ul&gt;
+    <br>&lt;li&gt;Почистить посудомоечную машину&lt;/li&gt;
+    <br>&lt;li&gt;&lt;del datetime="2009-10-11T01:25-07:00"&gt;Погулять&lt;/del&gt;&lt;/li&gt;
+    <br>&lt;li&gt;&lt;del datetime="2009-10-10T23:38-07:00"&gt;Поспать&lt;/del&gt;&lt;/li&gt;
+    <br>&lt;li&gt;&lt;ins>Купить принтер&lt;/ins&gt;&lt;/li&gt;
+    <br>&lt;/ul&gt;
+
+    <h2> Вид в браузере: </h2>
+    <ul>
+      <li>Почистить посудомоечную машину</li>
+      <li><del datetime="2009-10-11T01:25-07:00">Погулять</del></li>
+      <li><del datetime="2009-10-10T23:38-07:00">Поспать</del></li>
+      <li><ins>Купить принтер</ins></li>
+    </ul>
+
+
+    <br>
+    <br>
+    <h2> Тег &lt;address&gt; </h2>
+    <p>Тег &lt;address&gt; предназначен для хранения информации об авторе и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д. Планируется, что поисковые системы будут анализировать содержимое этого тега для сбора информации об авторах сайтов.<br>
+      По умолчанию текст внутри контейнера &lt;address&gt; отображается курсивным начертанием. Если эта особенность не требуется, используйте стили для изменения начертания шрифта.</p>
+
+    <h2> Пример кода: </h2>
+    &lt;address&gt;
+    <br>Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме 
+    <br>Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое 
+    <br>разришение. 
+    <br>&lt;/address&gt;
+
+    <h2> Вид в браузере: </h2>
+    <address>
+      Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме 
+      <br>Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое 
+      <br>разришение. 
+    </address>
+
+
+    <br>
+    <br>
+    <h2> Тег &lt;nobr&gt; </h2>
+    <p>Тег &lt;nobr&gt; сообщает браузеру, что текст на нем должен отображаться в строке без передачи. По мере того как весь текст отображается строкой, появляется горизонтальная полоса прокрутки.</p>
+
+    <h2> Пример кода: </h2>
+    &lt;nobr&gt;
+      <br>Это обычный и очень длинный текст, который весьма неудобно                
+      <br>читать, так как он написан в одну строчку, и вы вынуждены                
+      <br>прокручивать по горизонтали, чтобы прочитать его.  
+    &lt;/nobr&gt;
+
+    <h2> Вид в браузере: </h2>
+    <nobr>
+      Это обычный и очень длинный текст, который весьма неудобно                
+      читать, так как он написан в одну строчку, и вы вынуждены                
+      прокручивать по горизонтали, чтобы прочитать его.  
+    </nobr>
+
+
+    <br>
+    <br>
+    <h2>Тег &lt;wbr&gt;</h2>
+    <p>Тег &lt;wbr&gt; указывает браузеру место, где допускается делать перенос строки в тексте, если этого требует ширина родительского элемента.</p>
+
+    <h2> Пример кода: </h2>
+    &lt;p&gt;Самое длинное слово из химии&lt;/p&gt;
+    <br>&lt;p&gt;метоксихлор&lt;wbr&gt;диэтиламино&lt;wbr&gt;метил&lt;wbr&gt;бутил&lt;wbr&gt;амино&lt;wbr&gt;акридин&lt;/p&gt;
+
+    <h2> Вид в браузере: </h2>
+    <p>Самое длинное слово из химии</p>
+    <p>метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридин</p>
+
+  </body>
+</html>
